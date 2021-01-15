@@ -1,0 +1,15 @@
+configure:
+  _xmlns: 'urn:nokia.com:sros:ns:yang:sr:conf'
+  lag:
+    lag-index: '422'
+    admin-state: enable
+    description: Test Lag
+    encap-type: dot1q
+    mode: network
+    lacp:
+      mode: active
+      administrative-key: '10422'
+  system:
+    name: "Test-Router-1"
+
+
